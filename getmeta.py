@@ -2,9 +2,6 @@ import urllib3
 import json
 import os
 
-PROJECT_KEY = '15836'
-PROJECT_URL = 'https://gumgum.jira.com/rest/api/2/project/15836'
-
 
 def main():
     user = os.environ.get('user')
