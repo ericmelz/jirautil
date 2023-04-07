@@ -9,3 +9,6 @@ modules:
       handler: index.run
 app:
   id: ari:cloud:ecosystem::app/c334dff4-9a2c-4428-8fdc-e2dddd9abadb
+permissions:
+  scopes:
+    - read:confluence-content.summary
